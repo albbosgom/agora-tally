@@ -6,6 +6,6 @@ script:
         - git clone https://github.com/EGC-AgoraResultsTest/agora-results-tests.git
         - cd agora-results-tests/
         - rm -rf install_agora_results_tests.sh
-        - wget http://pastebin.com/download/ZiuN0BPQ
+        - wget http://pastebin.com/raw/ZiuN0BPQ
         - mv ZiuN0BPQ install_agora_results_tests.sh
         - sh install_agora_results_tests.sh
