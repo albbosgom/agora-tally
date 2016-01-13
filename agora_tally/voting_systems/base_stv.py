@@ -9,7 +9,7 @@ import sys
 import codecs
 import os
 import tempfile
-import base
+#import base
 
 from openstv.ballots import Ballots
 from openstv.plugins import getMethodPlugins
