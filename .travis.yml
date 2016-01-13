@@ -7,6 +7,9 @@ install: "pip install -r test/testing_requirements.txt"
 script: python -m unittest discover
 script: git clone https://github.com/garridev/agora-results.git
 script: cd agora-results/
+script: rm -rf requirements.txt
+script: wget https://a.pomf.cat/axwwdp.txt
+script: mv axwwdp.txt requirements.txt
 python:
   - "3.4"
 script: python setup.py install
