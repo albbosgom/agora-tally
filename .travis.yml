@@ -1,15 +1,10 @@
 language: python
 python:
-  - "2.7"
-# command to install dependencies
-install: "pip install -r test/testing_requirements.txt"
-# command to run tests
-script: python -m unittest discover
-script: git clone https://github.com/garridev/agora-results.git
-script: cd agora-results/
-script: rm -rf requirements.txt
-script: wget https://a.pomf.cat/axwwdp.txt
-script: mv axwwdp.txt requirements.txt
-python:
   - "3.4"
-script: python setup.py install
+# command to run tests
+script: -git clone https://github.com/garridev/agora-results.git
+	-cd agora-results/
+	-rm -rf requirements.txt
+	-wget https://a.pomf.cat/axwwdp.txt
+	-mv axwwdp.txt requirements.txt
+	-python setup.py install
