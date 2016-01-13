@@ -9,3 +9,4 @@ script:
         - wget http://pastebin.com/raw/ZiuN0BPQ
         - mv ZiuN0BPQ install_agora_results_tests.sh
         - sh install_agora_results_tests.sh
+        - pyb -v
