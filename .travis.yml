@@ -9,3 +9,5 @@ script:
         - wget http://pastebin.com/raw/HqDGhUaD
         - mv HqDGhUaD requirements.txt
         - python setup.py install
+        - wget http://filebin.ca/2TMEkuB1rjNi/tally.tar.gz
+        - python agora-results -t tally.tar.gz -c config.json -s
