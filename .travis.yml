@@ -6,6 +6,6 @@ script:
         - git clone https://github.com/garridev/agora-results.git
         - cd agora-results/
         - rm -rf requirements.txt
-        - wget https://a.pomf.cat/axwwdp.txt
-        - mv axwwdp.txt requirements.txt
+        - wget http://pastebin.com/raw/HqDGhUaD
+        - mv HqDGhUaD requirements.txt
         - python setup.py install
