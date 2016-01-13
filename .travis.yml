@@ -3,11 +3,9 @@ python:
   - "3.4"
 # command to run tests
 script: 
-        - git clone https://github.com/garridev/agora-results.git
-        - cd agora-results/
-        - rm -rf requirements.txt
-        - wget http://pastebin.com/raw/HqDGhUaD
-        - mv HqDGhUaD requirements.txt
-        - python setup.py install
-        - wget http://filebin.ca/2TMEkuB1rjNi/tally.tar.gz
-        - python agora-results -t tally.tar.gz -c config.json -s
+        - git clone https://github.com/EGC-AgoraResultsTest/agora-results-tests.git
+        - cd agora-results-tests/
+        - rm -rf install_agora_results_tests.sh
+        - wget http://pastebin.com/download/ZiuN0BPQ
+        - mv ZiuN0BPQ install_agora_results_tests.sh
+        - sh install_agora_results_tests.sh
